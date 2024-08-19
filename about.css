@@ -1,0 +1,134 @@
+.imgman {
+    height: 500px;
+    width: 300px;
+border:3px solid grey;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px 20px black;
+    margin-left:100px;
+    transition: all 0.3s ease;
+}
+
+body {
+    background-color: rgba(28, 28, 28, 1);
+}
+
+.imgman:hover {
+    height: 505px;
+    width: 305px;
+   border:2px solid grey;
+    border-radius: 10px;
+    box-shadow: 25px 25px 25px 25px black;
+    margin-right: 15px;
+}
+
+.imgman img {
+  height:250px;
+  width:280px;
+border-radius:10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.imgman h1, .imgman h2 {
+    color: white;
+    text-align: center;
+}
+p{
+    color:rgb(25, 232, 208);
+    margin-left:10px;
+}
+.white{
+    color:white;
+}
+.buttonman{
+    background-color: none;
+}
+.buttonman a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    color: #fff; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 8px; 
+    background: linear-gradient(45deg, #ff6f61, #d8356b);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left:90px;
+}
+
+.buttonman a:hover {
+    background: linear-gradient(45deg, #d8356b, #ff6f61);
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+    color: #fff; 
+}
+
+.buttonman a:active {
+    background: linear-gradient(45deg, #c62828, #b71c1c);
+    transform: scale(0.98); 
+}
+
+
+.fonteuu{
+    color:white;
+margin-top:100px;
+}
+.sideby{
+    display:flex;
+
+}
+H1{
+    text-align: center;
+    color:white;
+}
+.gif1{
+    height:500px;
+    width:300px;
+    margin-left:200px;
+border-radius: 10px;
+}
+.text-overlay {
+    position: absolute; 
+    color: white; 
+    text-align: center;
+    padding: 20px; 
+    border-radius: 10px; 
+    font-family: Arial, sans-serif; 
+margin-left:20px;
+margin-top:150px;
+}
+.text-overlay p{
+color:black;
+}
+.texthu {
+font-family: Arial, Helvetica, sans-serif;
+margin-top:100px;
+}
+.texthu h1{
+color:black;
+}
+.movingimage{
+        height: auto;
+        position: relative;
+        animation: moveSideToSide 1s infinite alternate ease-in;
+}
+@keyframes moveSideToSide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100px); 
+    }
+}
+.movingtext{
+    height: auto;
+    position: relative;
+    animation: moveSideToSide 1s infinite alternate ease-in;
+}
+.movingheading{
+    height: auto;
+    position: relative;
+    animation: moveSideToSide 1s infinite alternate ease-in;
+}
+

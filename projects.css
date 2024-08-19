@@ -1,0 +1,66 @@
+body {
+    background-color: rgba(28, 28, 28, 1);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px; 
+}
+
+.thunder img {
+    height: 700px;
+    width: 450px;
+    object-fit: cover;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns for the projects */
+    grid-gap: 20px; /* Space between the projects */
+    margin-left: 160px; /* Space between GIF and projects */
+    align-items: start;
+}
+
+.project {
+    border: 2px solid white;
+    height: 300px;
+    width: 300px;
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-image {
+    height: 70%;
+    width: 100%;
+    background-color: #444;
+}
+
+.project-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-text {
+    height: 30%;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+button{
+    height:30px;
+    width:100px;
+    background-color:violet;
+    border-radius:10px;
+}

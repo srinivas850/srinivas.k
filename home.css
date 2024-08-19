@@ -1,0 +1,64 @@
+body {
+    background-color: rgba(28, 28, 28, 1);
+}
+.gradient{
+    margin-left:1100px;
+    margin-top:-600px;
+}
+.html{
+    height:100px;
+    width:200px;
+    background-color: grey;
+    opacity:0.5;
+    margin:10px;
+    border-radius: 5px;
+}
+.parentman{
+    display:flex;
+    margin-left:100px;
+}
+.css{
+    height:100px;
+    width:200px;
+    background-color: grey;
+    opacity:0.5;
+    margin:10px;
+    border-radius: 5px;
+}
+.parentmun{
+    display:flex;
+    margin-left:100px;
+}
+.movedown{
+    margin-top:150px;
+}
+.html img{
+    height:70px;
+    width:70px;
+}
+.html p{
+    font-weight:BOLD;
+    font-size:25PX;
+    DISPlay:flex;
+    text-align: center;
+    color:white;
+    margin-top: -50px;
+    margin-left:70px;
+}
+.css img{
+    height:70px;
+    width:70px;
+}
+.css p,h2{
+    font-weight:BOLD;
+    font-size:25PX;
+    DISPlay:flex;
+    text-align: center;
+    color:white;
+    margin-top: -50px;
+    margin-left:70px;
+}
+h1{
+    color:violet;
+    margin-left:70px;
+}
